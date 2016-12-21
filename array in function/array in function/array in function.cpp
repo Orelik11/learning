@@ -6,6 +6,7 @@
 
 using namespace std;
 
+int fill_array(unsigned int , unsigned int);
 
 int main()
 {
@@ -23,9 +24,13 @@ int main()
 	}
 
 	//fill it
-
+	_array = fill_array(_rows,_col);
 
 	system("pause");
     return 0;
 }
 
+int fill_array(unsigned int rows, unsigned int col)
+{
+	
+}

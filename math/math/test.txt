@@ -1,0 +1,24 @@
+a = 3; b = 33
+abs(a) = 3
+b*b, sqrt(b) = 5.74456
+a^b, pow(a,b) = 5.55906e+15
+5.4 ==> 5, ceil (a) = 3
+floor (a) = 3
+fmod (a,b) = 3
+
+a = 3; b = 1
+abs(a) = 3
+b*b, sqrt(b) = 1
+a^b, pow(a,b) = 3
+5.4 ==> 5, ceil (a) = 3
+floor (a) = 3
+fmod (a,b) = 0
+
+a = 3; b = 1
+abs(a) = 3
+b*b, sqrt(b) = 1
+a^b, pow(a,b) = 3
+5.4 ==> 5, ceil (a) = 3
+floor (a) = 3
+fmod (a,b) = 0
+

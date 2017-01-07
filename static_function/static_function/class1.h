@@ -4,13 +4,11 @@
 
 class CppStudio
 {
-private:
-	static int class_counter;
 public:
+	//int class_counter;
 	CppStudio();
 	~CppStudio();
 
-	static int getClassNumber();
 };
 
 

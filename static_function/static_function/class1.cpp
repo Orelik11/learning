@@ -8,10 +8,9 @@ private:
 public:
 	CppStudio()		{	++class_counter;	}
 	~CppStudio()	{	--class_counter;	}
-	
-	static int getClassNumber()
-	{
-		return class_counter;
-	}
 };
 
+static int getClassNumber()
+{
+	return class_counter;
+}

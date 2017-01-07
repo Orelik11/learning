@@ -9,16 +9,7 @@ using namespace std;
 
 int main()
 {
-	cout << CppStudio::getClassNumber() << endl;
-
-
-	CppStudio *obj = new CppStudio;
-	cout << CppStudio::getClassNumber() << endl;
-
-	CppStudio *cpp = new CppStudio[10];
-
-	cout << CppStudio::getClassNumber() << endl;
-
+	CppStudio* obj1 = new CppStudio();
 
 	system("pause");
     return 0;

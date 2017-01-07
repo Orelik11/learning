@@ -5,13 +5,9 @@ class CppStudio
 private:
 	static unsigned int count;
 public :
-	CppStudio()		{ count++; }
-	~CppStudio()	{ count--; }
+	CppStudio();
+	~CppStudio();
 
-	static unsigned int CppStudio::getCount()
-	{
-		return CppStudio::count;
-	}
+	static unsigned int CppStudio::getCount();
 };
 
-unsigned int CppStudio::count = 0;

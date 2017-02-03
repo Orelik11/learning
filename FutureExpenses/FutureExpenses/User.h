@@ -7,13 +7,13 @@
 class User
 {
 private:
-	struct expense {
+	struct expenses {
 		tm _day_of_spend;		//time when you spent the money
 		unsigned int _sum;		// amount of money
 		string _desc;			// why you spend them
 		string _category;		// for reporting
 	};
-	struct income {
+	struct incomes {
 		tm _day_of_spend;
 		unsigned int _sum;
 		string _desc;
@@ -21,6 +21,8 @@ private:
 	};
 public:
 	User();
+	void add_expense(tm, int, string, string);
+	void add_income(tm, int, string, string);
 	~User();
 };
 
